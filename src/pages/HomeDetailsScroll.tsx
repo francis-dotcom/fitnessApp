@@ -18,7 +18,7 @@ const HomeDetailsScroll: FunctionComponent = () => {
         text-align: center;
         font-size: var(--paragraph-03-size);
         color: var(--colors-black-100);
-        font-family: var(--paragraph-03);
+        font-family: var(--headline-05);
       `}
     >
       <Item1 propPosition="absolute" propTop="703px" propLeft="24px" />

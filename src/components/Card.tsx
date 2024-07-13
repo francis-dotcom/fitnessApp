@@ -19,7 +19,7 @@ const Card: FunctionComponent<CardType> = ({ className = "" }) => {
           text-align: left;
           font-size: var(--paragraph-04-size);
           color: var(--colors-black-100);
-          font-family: var(--paragraph-03);
+          font-family: var(--headline-05);
         `,
         className,
       ].join(" ")}

@@ -23,7 +23,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
           text-align: left;
           font-size: var(--paragraph-03-size);
           color: var(--color-gray-100);
-          font-family: var(--paragraph-03);
+          font-family: var(--headline-05);
         `,
         className,
       ].join(" ")}

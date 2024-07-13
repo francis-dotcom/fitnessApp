@@ -6,9 +6,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import HomeHome from "./pages/HomeHome";
+import MapMap from "./pages/MapMap";
 import HomeScroll from "./pages/HomeScroll";
 import HomeDetailsScroll from "./pages/HomeDetailsScroll";
-import MapMap from "./pages/MapMap";
 
 function App() {
   const action = useNavigationType();
@@ -30,15 +30,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/mapmap":
+        title = "";
+        metaDescription = "";
+        break;
       case "/homescroll-6":
         title = "";
         metaDescription = "";
         break;
       case "/homedetails-scroll":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/mapmap":
         title = "";
         metaDescription = "";
         break;
@@ -61,9 +61,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomeHome />} />
+      <Route path="/mapmap" element={<MapMap />} />
       <Route path="/homescroll-6" element={<HomeScroll />} />
       <Route path="/homedetails-scroll" element={<HomeDetailsScroll />} />
-      <Route path="/mapmap" element={<MapMap />} />
     </Routes>
   );
 }

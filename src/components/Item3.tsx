@@ -37,7 +37,7 @@ const Item3: FunctionComponent<Item3Type> = ({
           text-align: left;
           font-size: var(--headline-05-size);
           color: var(--colors-black-100);
-          font-family: var(--paragraph-03);
+          font-family: var(--headline-05);
           top: ${propTop};
         `,
         className,

@@ -28,7 +28,7 @@ justify-content: flex-start;
 text-align: left;
 font-size: var(--headline-05-size);
 color: var(--colors-white-100);
-font-family: var(--paragraph-03);
+font-family: var(--headline-05);
 position: ${propPosition}
 top: ${propTop}
 left: ${propLeft}
